@@ -20,9 +20,10 @@ html{
 div.contenedor{
     width: 100%;
     height: 100vh;
-    background-color: gray;
+    /* background-color: #0cb7a7c4; */
     display: flex;
     align-items: center;
+    animation: mymove 9s infinite;
 }
 
 div.contenido{
@@ -32,25 +33,24 @@ div.contenido{
     align-items: center;
     margin: 0 auto;
     text-align: center;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
 }
 
 div.marcoLogo{
-    width: 50%;
-    /* height: 90%;
-    padding: 50px; */
+    width: 78%;
+    height: 78%;
     margin: 0 auto;
     border-radius: 35px;
-    border: 1px solid purple;
+    border: 0.5px solid #0000002e;
+    background-color: #ffffff;
 }
 
 div.data{
-    background-color: #4CAF50;
     margin: 50% 0;
 }
 
 input[type=submit] {
-    width: 50%;
+    width: 70%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -65,14 +65,17 @@ input[type=submit] {
         width: 50%;
         height: 90%;
         padding: 50px;
-        margin: 0 auto;
-        border-radius: 35px;
-        border: 1px solid purple;
+    }
+    input[type=submit]{
+        width: 50%;
+    }
+    input{
+        width: 50%;
     }
   }
 
-/*input{
-    width: 900px;
+input{
+    width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -80,4 +83,21 @@ input[type=submit] {
     border-radius: 4px;
     box-sizing: border-box;
     text-align: center;
-} */
+}
+
+@keyframes mymove {
+    0%{background-color: #0c41b7c4;}
+    10%{background-color: #0c60b7c4;}
+    20%{background-color: #0c88b7c4;}
+    30%{background-color: #0ca7b7c4;}
+    40%{background-color: #0cb7a7c4;}
+    
+    50%{background-color: #0cb7a7c4;}
+    60%{background-color: #0cb7a7c4;}
+    70%{background-color: #0ca7b7c4;}
+    80%{background-color: #0c88b7c4;}
+    90%{background-color: #0c60b7c4;}
+    100%{background-color: #0c41b7c4;}
+    /* from {background-color: #750cb7b8;}
+    to {background-color: #0cafb7b8;} */
+  }

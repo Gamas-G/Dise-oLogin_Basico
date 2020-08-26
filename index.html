@@ -11,15 +11,19 @@
         <div class="contenido">
             <div class="marcoLogo">
                 <div class="data">
-                    <h1>Bienvenido</h1>
-                    <h3>Nombre de Usuario</h3>
-                    <input type="text" name="userName" placeholder="Your Name...">
-                    <h3>Password</h3>
-                    <input type="password" name="userPassword" id="" placeholder="Your Password..."><br>
-                    <input type="submit" value="">
-            </div>
+                    <form action="/inicioSesion.html">
+                        <h1>INICIE SESIÓN</h1>
+                        <h3>Nombre de Usuario</h3>
+                        <input type="text" name="userName" placeholder="Your Name..." required>
+                        <h3>Password</h3>
+                        <input type="password" name="userPassword" id="" placeholder="Your Password..." required><br>
+                        <input type="submit" value="Iniciar">
+                    </form>
+                </div>
             </div><!-- .marcoLogo -->
         </div><!-- .contenido -->
     </div><!-- .conetendor -->
+
+    <script src="JS/validate.js"></script>
 </body>
 </html>
