@@ -7,5 +7,4 @@ Sin codigo javaScript
 Vista Web
 ![ScreenShot](https://raw.github.com/Gamas-G/Dise-oLogin_Basico/master/Screen/Pantalla1.png)
 
-Vista Movil
-![ScreenShot](https://raw.github.com/Gamas-G/Dise-oLogin_Basico/master/Screen/Pantalla2.png)
+Vista Movil ![ScreenShot](https://raw.github.com/Gamas-G/Dise-oLogin_Basico/master/Screen/Pantalla2.png)
