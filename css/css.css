@@ -88,7 +88,7 @@ input{
 }
 
 @keyframes mymove {
-    0%{background-color: #0c41b7c4;}
+    0% {background-color: #0c41b7c4;}
     10%{background-color: #0c60b7c4;}
     20%{background-color: #0c88b7c4;}
     30%{background-color: #0ca7b7c4;}
